@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="PokeAPI Test Data" skipped="0" tests="11" time="12.04" timestamp="2021-09-22 04:38:50"><testcase name="Test Pokemon data from PokeAPI"><failure message="Pokemon is not found in PokeAPI web&#13;&#10;Expected: &lt;200&gt;&#13;&#10;     but: was &lt;404&gt;" type="java.lang.AssertionError">Pokemon is not found in PokeAPI web&#13;
+Expected: &lt;200&gt;&#13;
+     but: was &lt;404&gt;</failure><system-err>Pokemon is not found in PokeAPI web&#13;
+Expected: &lt;200&gt;&#13;
+     but: was &lt;404&gt;&#13;
+org.example.steps.PokemonSteps.getPokemonNamePokemonDataFromPokeapi(PokemonSteps.java:36)&#13;
+✽.get 'Garurumon' pokemon data from pokeapi(file:///C:/project/blibli/future2/try-testing-pipeline/src/test/resources/features/PokemonTest.feature:7)&#13;
+</system-err></testcase></testsuite>
