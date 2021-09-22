@@ -1,0 +1,661 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-22T09:44:53.243Z",
+        "line": 12,
+        "name": "Test Pokemon data from PokeAPI",
+        "description": "",
+        "id": "pokeapi-test-data;test-pokemon-data-from-pokeapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "prepare variables to get pokemon data",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.prepareVariablesToGetPokemonData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5443000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get \u0027Pikachu\u0027 pokemon data from pokeapi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Pikachu\u0027",
+                  "offset": 4
+                }
+              ],
+              "location": "org.example.steps.PokemonSteps.getPokemonNamePokemonDataFromPokeapi(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "get pokemon data should be success",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.getPokemonDataShouldBeSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pokemon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-22T09:44:59.349Z",
+        "line": 13,
+        "name": "Test Pokemon data from PokeAPI",
+        "description": "",
+        "id": "pokeapi-test-data;test-pokemon-data-from-pokeapi;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "prepare variables to get pokemon data",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.prepareVariablesToGetPokemonData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 455000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get \u0027Charizard\u0027 pokemon data from pokeapi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Charizard\u0027",
+                  "offset": 4
+                }
+              ],
+              "location": "org.example.steps.PokemonSteps.getPokemonNamePokemonDataFromPokeapi(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "get pokemon data should be success",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.getPokemonDataShouldBeSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pokemon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-22T09:44:59.851Z",
+        "line": 14,
+        "name": "Test Pokemon data from PokeAPI",
+        "description": "",
+        "id": "pokeapi-test-data;test-pokemon-data-from-pokeapi;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "prepare variables to get pokemon data",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.prepareVariablesToGetPokemonData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 447000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get \u0027Eevee\u0027 pokemon data from pokeapi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Eevee\u0027",
+                  "offset": 4
+                }
+              ],
+              "location": "org.example.steps.PokemonSteps.getPokemonNamePokemonDataFromPokeapi(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "get pokemon data should be success",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.getPokemonDataShouldBeSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pokemon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-22T09:45:00.333Z",
+        "line": 15,
+        "name": "Test Pokemon data from PokeAPI",
+        "description": "",
+        "id": "pokeapi-test-data;test-pokemon-data-from-pokeapi;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "prepare variables to get pokemon data",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.prepareVariablesToGetPokemonData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 465000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get \u0027Mewtwo\u0027 pokemon data from pokeapi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Mewtwo\u0027",
+                  "offset": 4
+                }
+              ],
+              "location": "org.example.steps.PokemonSteps.getPokemonNamePokemonDataFromPokeapi(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "get pokemon data should be success",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.getPokemonDataShouldBeSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pokemon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-22T09:45:00.830Z",
+        "line": 16,
+        "name": "Test Pokemon data from PokeAPI",
+        "description": "",
+        "id": "pokeapi-test-data;test-pokemon-data-from-pokeapi;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "prepare variables to get pokemon data",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.prepareVariablesToGetPokemonData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Pokemon is not found in PokeAPI web\r\nExpected: \u003c200\u003e\r\n     but: was \u003c404\u003e\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat org.example.steps.PokemonSteps.getPokemonNamePokemonDataFromPokeapi(PokemonSteps.java:36)\r\n\tat ✽.get \u0027Garurumon\u0027 pokemon data from pokeapi(file:///C:/project/blibli/future2/try-testing-pipeline/src/test/resources/features/PokemonTest.feature:7)\r\n",
+              "duration": 354000000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "get \u0027Garurumon\u0027 pokemon data from pokeapi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Garurumon\u0027",
+                  "offset": 4
+                }
+              ],
+              "location": "org.example.steps.PokemonSteps.getPokemonNamePokemonDataFromPokeapi(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "get pokemon data should be success",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.getPokemonDataShouldBeSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pokemon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-22T09:45:01.281Z",
+        "line": 17,
+        "name": "Test Pokemon data from PokeAPI",
+        "description": "",
+        "id": "pokeapi-test-data;test-pokemon-data-from-pokeapi;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "prepare variables to get pokemon data",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.prepareVariablesToGetPokemonData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 386000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get \u0027Koffing\u0027 pokemon data from pokeapi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Koffing\u0027",
+                  "offset": 4
+                }
+              ],
+              "location": "org.example.steps.PokemonSteps.getPokemonNamePokemonDataFromPokeapi(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "get pokemon data should be success",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.getPokemonDataShouldBeSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pokemon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-22T09:45:01.705Z",
+        "line": 18,
+        "name": "Test Pokemon data from PokeAPI",
+        "description": "",
+        "id": "pokeapi-test-data;test-pokemon-data-from-pokeapi;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "prepare variables to get pokemon data",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.prepareVariablesToGetPokemonData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 405000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get \u0027Meowth\u0027 pokemon data from pokeapi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Meowth\u0027",
+                  "offset": 4
+                }
+              ],
+              "location": "org.example.steps.PokemonSteps.getPokemonNamePokemonDataFromPokeapi(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "get pokemon data should be success",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.getPokemonDataShouldBeSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pokemon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-22T09:45:02.154Z",
+        "line": 19,
+        "name": "Test Pokemon data from PokeAPI",
+        "description": "",
+        "id": "pokeapi-test-data;test-pokemon-data-from-pokeapi;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "prepare variables to get pokemon data",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.prepareVariablesToGetPokemonData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 426000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get \u0027Blastoise\u0027 pokemon data from pokeapi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Blastoise\u0027",
+                  "offset": 4
+                }
+              ],
+              "location": "org.example.steps.PokemonSteps.getPokemonNamePokemonDataFromPokeapi(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "get pokemon data should be success",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.getPokemonDataShouldBeSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pokemon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-22T09:45:02.621Z",
+        "line": 20,
+        "name": "Test Pokemon data from PokeAPI",
+        "description": "",
+        "id": "pokeapi-test-data;test-pokemon-data-from-pokeapi;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "prepare variables to get pokemon data",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.prepareVariablesToGetPokemonData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 391000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get \u0027Ivysaur\u0027 pokemon data from pokeapi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Ivysaur\u0027",
+                  "offset": 4
+                }
+              ],
+              "location": "org.example.steps.PokemonSteps.getPokemonNamePokemonDataFromPokeapi(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "get pokemon data should be success",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.getPokemonDataShouldBeSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pokemon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-22T09:45:03.042Z",
+        "line": 21,
+        "name": "Test Pokemon data from PokeAPI",
+        "description": "",
+        "id": "pokeapi-test-data;test-pokemon-data-from-pokeapi;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "prepare variables to get pokemon data",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.prepareVariablesToGetPokemonData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 438000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get \u0027Squirtle\u0027 pokemon data from pokeapi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Squirtle\u0027",
+                  "offset": 4
+                }
+              ],
+              "location": "org.example.steps.PokemonSteps.getPokemonNamePokemonDataFromPokeapi(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "get pokemon data should be success",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.getPokemonDataShouldBeSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pokemon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-22T09:45:03.508Z",
+        "line": 22,
+        "name": "Test Pokemon data from PokeAPI",
+        "description": "",
+        "id": "pokeapi-test-data;test-pokemon-data-from-pokeapi;;12",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "prepare variables to get pokemon data",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.prepareVariablesToGetPokemonData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 429000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get \u0027Mew\u0027 pokemon data from pokeapi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Mew\u0027",
+                  "offset": 4
+                }
+              ],
+              "location": "org.example.steps.PokemonSteps.getPokemonNamePokemonDataFromPokeapi(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "get pokemon data should be success",
+            "match": {
+              "location": "org.example.steps.PokemonSteps.getPokemonDataShouldBeSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pokemon"
+          }
+        ]
+      }
+    ],
+    "name": "PokeAPI Test Data",
+    "description": "",
+    "id": "pokeapi-test-data",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PokemonTest.feature",
+    "tags": [
+      {
+        "name": "@Pokemon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
